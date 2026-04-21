@@ -12,7 +12,6 @@ li {
 
 html,
 body {
-  font-display: optional;
   color: #636363;
 }
 
@@ -134,7 +133,7 @@ h3 {
 }
 
 #header h1,
-p {
+#header p {
   font-weight: 400;
 }
 
@@ -148,11 +147,10 @@ p {
 
 #icons {
   font-size: 18px;
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  grid-auto-columns: max-content;
-  grid-gap: 0 15px;
+  gap: 8px 15px;
   margin: 5px 0 0 0;
 }
 
